@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Game.CSharp</name>
+    </assembly>
+    <members>
+        <member name="T:Game.SimpleActorStaticClass">
+            <summary>
+            SimpleActorStaticClass Script.
+            Holds a single instence of an actor and it's called count to provide evidence for non-disposed static classes
+            </summary>
+        </member>
+    </members>
+</doc>

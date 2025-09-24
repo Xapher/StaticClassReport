@@ -1,0 +1,138 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31314.256
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flax", "Flax", "{5064EAFC-9EFF-4BF5-BD4A-4708AC3D5113}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Flax/Tools", "{D204893D-58A7-4E49-ADCE-A6EACA26FFB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Source\Game.csproj", "{9976886F-91F1-4D33-B058-C8BE769473C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flax.Build.Tests", "..\..\..\FlaxEngine\Git\FlaxEngine\Source\Tools\Flax.Build.Tests\Flax.Build.Tests.csproj", "{987AA8AB-2521-425C-A7C1-2D44D83D060D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flax.Build", "..\..\..\FlaxEngine\Git\FlaxEngine\Source\Tools\Flax.Build\Flax.Build.csproj", "{C6C6C33B-7DA4-4CE9-B37C-F94EF2AB2B97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildScripts", "Cache\Projects\BuildScripts.csproj", "{C4B53785-AD97-48AB-912D-3AA1DA01FBFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Editor.Debug|ARM64 = Editor.Debug|ARM64
+		Editor.Debug|Win32 = Editor.Debug|Win32
+		Editor.Debug|Win64 = Editor.Debug|Win64
+		Editor.Development|ARM64 = Editor.Development|ARM64
+		Editor.Development|Win32 = Editor.Development|Win32
+		Editor.Development|Win64 = Editor.Development|Win64
+		Editor.Release|ARM64 = Editor.Release|ARM64
+		Editor.Release|Win32 = Editor.Release|Win32
+		Editor.Release|Win64 = Editor.Release|Win64
+		Game.Debug|ARM64 = Game.Debug|ARM64
+		Game.Debug|Win32 = Game.Debug|Win32
+		Game.Debug|Win64 = Game.Debug|Win64
+		Game.Development|ARM64 = Game.Development|ARM64
+		Game.Development|Win32 = Game.Development|Win32
+		Game.Development|Win64 = Game.Development|Win64
+		Game.Release|ARM64 = Game.Release|ARM64
+		Game.Release|Win32 = Game.Release|Win32
+		Game.Release|Win64 = Game.Release|Win64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Editor.Debug|ARM64.ActiveCfg = Editor.Windows.Debug|ARM64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Editor.Debug|ARM64.Build.0 = Editor.Windows.Debug|ARM64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Editor.Debug|Win32.ActiveCfg = Editor.Windows.Debug|x64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Editor.Debug|Win64.ActiveCfg = Editor.Windows.Debug|x64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Editor.Debug|Win64.Build.0 = Editor.Windows.Debug|x64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Editor.Development|ARM64.ActiveCfg = Editor.Windows.Development|ARM64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Editor.Development|ARM64.Build.0 = Editor.Windows.Development|ARM64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Editor.Development|Win32.ActiveCfg = Editor.Windows.Development|x64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Editor.Development|Win64.ActiveCfg = Editor.Windows.Development|x64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Editor.Development|Win64.Build.0 = Editor.Windows.Development|x64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Editor.Release|ARM64.ActiveCfg = Editor.Windows.Release|ARM64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Editor.Release|ARM64.Build.0 = Editor.Windows.Release|ARM64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Editor.Release|Win32.ActiveCfg = Editor.Windows.Release|x64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Editor.Release|Win64.ActiveCfg = Editor.Windows.Release|x64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Editor.Release|Win64.Build.0 = Editor.Windows.Release|x64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Game.Debug|ARM64.ActiveCfg = Game.Windows.Debug|ARM64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Game.Debug|ARM64.Build.0 = Game.Windows.Debug|ARM64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Game.Debug|Win32.ActiveCfg = Game.Windows.Debug|Win32
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Game.Debug|Win32.Build.0 = Game.Windows.Debug|Win32
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Game.Debug|Win64.ActiveCfg = Game.Windows.Debug|x64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Game.Debug|Win64.Build.0 = Game.Windows.Debug|x64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Game.Development|ARM64.ActiveCfg = Game.Windows.Development|ARM64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Game.Development|ARM64.Build.0 = Game.Windows.Development|ARM64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Game.Development|Win32.ActiveCfg = Game.Windows.Development|Win32
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Game.Development|Win32.Build.0 = Game.Windows.Development|Win32
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Game.Development|Win64.ActiveCfg = Game.Windows.Development|x64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Game.Development|Win64.Build.0 = Game.Windows.Development|x64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Game.Release|ARM64.ActiveCfg = Game.Windows.Release|ARM64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Game.Release|ARM64.Build.0 = Game.Windows.Release|ARM64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Game.Release|Win32.ActiveCfg = Game.Windows.Release|Win32
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Game.Release|Win32.Build.0 = Game.Windows.Release|Win32
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Game.Release|Win64.ActiveCfg = Game.Windows.Release|x64
+		{9976886F-91F1-4D33-B058-C8BE769473C2}.Game.Release|Win64.Build.0 = Game.Windows.Release|x64
+		{987AA8AB-2521-425C-A7C1-2D44D83D060D}.Editor.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{987AA8AB-2521-425C-A7C1-2D44D83D060D}.Editor.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{987AA8AB-2521-425C-A7C1-2D44D83D060D}.Editor.Debug|Win64.ActiveCfg = Debug|Any CPU
+		{987AA8AB-2521-425C-A7C1-2D44D83D060D}.Editor.Development|ARM64.ActiveCfg = Debug|Any CPU
+		{987AA8AB-2521-425C-A7C1-2D44D83D060D}.Editor.Development|Win32.ActiveCfg = Debug|Any CPU
+		{987AA8AB-2521-425C-A7C1-2D44D83D060D}.Editor.Development|Win64.ActiveCfg = Debug|Any CPU
+		{987AA8AB-2521-425C-A7C1-2D44D83D060D}.Editor.Release|ARM64.ActiveCfg = Debug|Any CPU
+		{987AA8AB-2521-425C-A7C1-2D44D83D060D}.Editor.Release|Win32.ActiveCfg = Debug|Any CPU
+		{987AA8AB-2521-425C-A7C1-2D44D83D060D}.Editor.Release|Win64.ActiveCfg = Debug|Any CPU
+		{987AA8AB-2521-425C-A7C1-2D44D83D060D}.Game.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{987AA8AB-2521-425C-A7C1-2D44D83D060D}.Game.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{987AA8AB-2521-425C-A7C1-2D44D83D060D}.Game.Debug|Win64.ActiveCfg = Debug|Any CPU
+		{987AA8AB-2521-425C-A7C1-2D44D83D060D}.Game.Development|ARM64.ActiveCfg = Debug|Any CPU
+		{987AA8AB-2521-425C-A7C1-2D44D83D060D}.Game.Development|Win32.ActiveCfg = Debug|Any CPU
+		{987AA8AB-2521-425C-A7C1-2D44D83D060D}.Game.Development|Win64.ActiveCfg = Debug|Any CPU
+		{987AA8AB-2521-425C-A7C1-2D44D83D060D}.Game.Release|ARM64.ActiveCfg = Debug|Any CPU
+		{987AA8AB-2521-425C-A7C1-2D44D83D060D}.Game.Release|Win32.ActiveCfg = Debug|Any CPU
+		{987AA8AB-2521-425C-A7C1-2D44D83D060D}.Game.Release|Win64.ActiveCfg = Debug|Any CPU
+		{C6C6C33B-7DA4-4CE9-B37C-F94EF2AB2B97}.Editor.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{C6C6C33B-7DA4-4CE9-B37C-F94EF2AB2B97}.Editor.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{C6C6C33B-7DA4-4CE9-B37C-F94EF2AB2B97}.Editor.Debug|Win64.ActiveCfg = Debug|Any CPU
+		{C6C6C33B-7DA4-4CE9-B37C-F94EF2AB2B97}.Editor.Development|ARM64.ActiveCfg = Debug|Any CPU
+		{C6C6C33B-7DA4-4CE9-B37C-F94EF2AB2B97}.Editor.Development|Win32.ActiveCfg = Debug|Any CPU
+		{C6C6C33B-7DA4-4CE9-B37C-F94EF2AB2B97}.Editor.Development|Win64.ActiveCfg = Debug|Any CPU
+		{C6C6C33B-7DA4-4CE9-B37C-F94EF2AB2B97}.Editor.Release|ARM64.ActiveCfg = Debug|Any CPU
+		{C6C6C33B-7DA4-4CE9-B37C-F94EF2AB2B97}.Editor.Release|Win32.ActiveCfg = Debug|Any CPU
+		{C6C6C33B-7DA4-4CE9-B37C-F94EF2AB2B97}.Editor.Release|Win64.ActiveCfg = Debug|Any CPU
+		{C6C6C33B-7DA4-4CE9-B37C-F94EF2AB2B97}.Game.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{C6C6C33B-7DA4-4CE9-B37C-F94EF2AB2B97}.Game.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{C6C6C33B-7DA4-4CE9-B37C-F94EF2AB2B97}.Game.Debug|Win64.ActiveCfg = Debug|Any CPU
+		{C6C6C33B-7DA4-4CE9-B37C-F94EF2AB2B97}.Game.Development|ARM64.ActiveCfg = Debug|Any CPU
+		{C6C6C33B-7DA4-4CE9-B37C-F94EF2AB2B97}.Game.Development|Win32.ActiveCfg = Debug|Any CPU
+		{C6C6C33B-7DA4-4CE9-B37C-F94EF2AB2B97}.Game.Development|Win64.ActiveCfg = Debug|Any CPU
+		{C6C6C33B-7DA4-4CE9-B37C-F94EF2AB2B97}.Game.Release|ARM64.ActiveCfg = Debug|Any CPU
+		{C6C6C33B-7DA4-4CE9-B37C-F94EF2AB2B97}.Game.Release|Win32.ActiveCfg = Debug|Any CPU
+		{C6C6C33B-7DA4-4CE9-B37C-F94EF2AB2B97}.Game.Release|Win64.ActiveCfg = Debug|Any CPU
+		{C4B53785-AD97-48AB-912D-3AA1DA01FBFC}.Editor.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{C4B53785-AD97-48AB-912D-3AA1DA01FBFC}.Editor.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{C4B53785-AD97-48AB-912D-3AA1DA01FBFC}.Editor.Debug|Win64.ActiveCfg = Debug|Any CPU
+		{C4B53785-AD97-48AB-912D-3AA1DA01FBFC}.Editor.Development|ARM64.ActiveCfg = Debug|Any CPU
+		{C4B53785-AD97-48AB-912D-3AA1DA01FBFC}.Editor.Development|Win32.ActiveCfg = Debug|Any CPU
+		{C4B53785-AD97-48AB-912D-3AA1DA01FBFC}.Editor.Development|Win64.ActiveCfg = Debug|Any CPU
+		{C4B53785-AD97-48AB-912D-3AA1DA01FBFC}.Editor.Release|ARM64.ActiveCfg = Debug|Any CPU
+		{C4B53785-AD97-48AB-912D-3AA1DA01FBFC}.Editor.Release|Win32.ActiveCfg = Debug|Any CPU
+		{C4B53785-AD97-48AB-912D-3AA1DA01FBFC}.Editor.Release|Win64.ActiveCfg = Debug|Any CPU
+		{C4B53785-AD97-48AB-912D-3AA1DA01FBFC}.Game.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{C4B53785-AD97-48AB-912D-3AA1DA01FBFC}.Game.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{C4B53785-AD97-48AB-912D-3AA1DA01FBFC}.Game.Debug|Win64.ActiveCfg = Debug|Any CPU
+		{C4B53785-AD97-48AB-912D-3AA1DA01FBFC}.Game.Development|ARM64.ActiveCfg = Debug|Any CPU
+		{C4B53785-AD97-48AB-912D-3AA1DA01FBFC}.Game.Development|Win32.ActiveCfg = Debug|Any CPU
+		{C4B53785-AD97-48AB-912D-3AA1DA01FBFC}.Game.Development|Win64.ActiveCfg = Debug|Any CPU
+		{C4B53785-AD97-48AB-912D-3AA1DA01FBFC}.Game.Release|ARM64.ActiveCfg = Debug|Any CPU
+		{C4B53785-AD97-48AB-912D-3AA1DA01FBFC}.Game.Release|Win32.ActiveCfg = Debug|Any CPU
+		{C4B53785-AD97-48AB-912D-3AA1DA01FBFC}.Game.Release|Win64.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D204893D-58A7-4E49-ADCE-A6EACA26FFB1} = {5064EAFC-9EFF-4BF5-BD4A-4708AC3D5113}
+		{987AA8AB-2521-425C-A7C1-2D44D83D060D} = {D204893D-58A7-4E49-ADCE-A6EACA26FFB1}
+		{C6C6C33B-7DA4-4CE9-B37C-F94EF2AB2B97} = {D204893D-58A7-4E49-ADCE-A6EACA26FFB1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CB1A688-352C-4505-AE9E-68F8CFC20A9F}
+	EndGlobalSection
+EndGlobal
